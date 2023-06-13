@@ -168,6 +168,12 @@ article {
     -webkit-box-orient: vertical;
 }
 
+.content-text-detail p {
+    line-height: 1.8;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
 .content-text a {
     float: right;
     font-size: 14px;
@@ -281,19 +287,4 @@ aside {
     margin: 0% 1%;
 }
     
-@media (max-width: 720px){
-    .footer{
-        text-align: left;
-        padding: 5%;
-    }
 
-    .footer .row ul li{
-        display: block;
-        margin: 10px 0px;
-        text-align: left;
-    }
-
-    .footer .row a i{
-        margin: 0% 3%;
-    }
-}
