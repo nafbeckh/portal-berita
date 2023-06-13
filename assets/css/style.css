@@ -33,6 +33,7 @@ header {
     padding-top: 36px;
     float: left;
     background: #F3F2F0;
+    margin-top: 12px;
     margin-bottom: 12px;
     text-align: center;
 }
@@ -41,9 +42,6 @@ header h1 {
     margin-bottom: 8px;
     letter-spacing: 2px;
     filter: drop-shadow(-2px 2px 2px #bfbfbf);
-}
-
-header h3 {
 }
 
 nav {
@@ -110,11 +108,10 @@ article {
     float: left;
     width: 640px;
     padding: 0;
-    margin-bottom: 12px;
 }
 
 .content {
-    padding: 30px 16px 30px 16px;
+    padding: 28px 16px 28px 16px;
     background: #F3F2F0;
     margin-bottom: 12px;
 }
@@ -187,7 +184,6 @@ aside {
     width: 308px;
     float: right;
     background: #F3F2F0;
-    margin-bottom: 12px;
 }
 
 .aside-header {
@@ -247,14 +243,57 @@ aside {
     font-size: 12px;
 }
 
-footer {
-    width: 960px;
+.footer{
     float: left;
-    background: #fff;
+    width: 960px;
+    background:#F3F2F0;
+    padding: 30px 0px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+    
+.footer .row{
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+}
+    
+.footer .row a{
+    color: rgb(26, 26, 26);
+    transition: 0.5s;
+}
+    
+.footer .row a:hover{
+    color: #434343;
 }
 
-footer .col {
-    width: 300px;
-    float: left;
-    padding: 10px;
+.footer .row ul{
+    width: 100%;
+}
+
+.footer .row ul li{
+    display: inline-block;
+    margin: 0px 30px;
+}
+    
+.footer .row a i{
+    font-size: 2em;
+    margin: 0% 1%;
+}
+    
+@media (max-width: 720px){
+    .footer{
+        text-align: left;
+        padding: 5%;
+    }
+
+    .footer .row ul li{
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .footer .row a i{
+        margin: 0% 3%;
+    }
 }
